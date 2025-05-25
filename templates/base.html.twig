@@ -1,12 +1,17 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Bonjour bonjour{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}
+        <h1>Hello Zarwine !</h1>
+        <p>Je fais un test pour faire une Pull Request via un clone !</p>
+
+        <p>Ceci est ma première modification.</p>
+        <p>Et voici ma deuxième modification.</p>
+        {% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
